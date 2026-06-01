@@ -4,7 +4,7 @@ on:
     branches: [ main ]
   
 jobs:
-  build:
+  build-new:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
