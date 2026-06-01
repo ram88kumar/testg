@@ -10,7 +10,7 @@ setTimeout(() => {
     });
 
     res.on('end', () => {
-      if(data === 'Hello Worldd!') {
+      if(data === 'Hello World!') {
         console.log('Test passed: Received expected response from server.');
       } else {
         console.error(`Test failed: Expected 'Hello World!' but received '${data}'`);
