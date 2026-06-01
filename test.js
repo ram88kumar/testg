@@ -14,6 +14,7 @@ setTimeout(() => {
         console.log('Test passed: Received expected response from server.');
       } else {
         console.error(`Test failed: Expected 'Hello World!' but received '${data}'`);
+        process.exit(1); // Exit with error code
       } 
       process.exit(0); // Exit after receiving the response
     });
